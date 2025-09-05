@@ -45,7 +45,25 @@ Ce projet vise à répondre aux questions suivantes à travers l'exploration et 
 
 ## 6. Résultats et Visualisations Clés
 
-*[Cette section sera remplie à la fin de l'analyse avec les graphiques et les conclusions les plus importants.]*
+L'analyse complète, menée dans le notebook `analysis.ipynb`, a révélé plusieurs signaux d'alerte majeurs permettant de distinguer les offres frauduleuses.
+
+### Insight 1 : La "Stratégie du Faible Effort"
+
+Les fraudeurs investissent un minimum d'effort dans la rédaction de leurs offres. Cela se traduit par des champs de texte souvent vides ou très courts. L'absence d'un profil d'entreprise est l'indicateur le plus puissant.
+
+![Distribution de la longueur du profil d'entreprise](images/profile_length_distribution.png)
+
+### Insight 2 : L'Australie, une Cible à Haut Risque
+
+L'analyse du taux de fraude par pays a montré que, bien que les États-Unis aient le plus grand volume de fraudes, c'est en **Australie** que le risque est le plus élevé, avec un taux de fraude alarmant de **18.7%**.
+
+![Taux de fraude par pays](images/risk_by_country.png)
+
+### Insight 3 : Les Signaux d'Alerte Classiques
+
+- **Absence de Logo :** 82% des offres légitimes ont un logo, contre seulement 33% des offres frauduleuses.
+- **Type de Contrat :** Les offres `Part-time` (Temps partiel) sont proportionnellement les plus risquées (9.3% de fraude).
+- **Télétravail :** Les offres frauduleuses sont presque deux fois plus susceptibles de proposer du télétravail.
 
 ## 7. Comment Lancer le Projet
 

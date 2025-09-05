@@ -1,0 +1,12 @@
+# Data Manipulation and Analysis
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+
+
+# Jupyter Environment
+notebook
+jupyterlab
