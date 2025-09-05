@@ -59,7 +59,13 @@ L'analyse du taux de fraude par pays a montré que, bien que les États-Unis aie
 
 ![Taux de fraude par pays](images/risk_by_country.png)
 
-### Insight 3 : Les Signaux d'Alerte Classiques
+### Insight 3 : Le Paradoxe du Salaire (L'Appât Stratégique)
+
+De manière contre-intuitive, les offres frauduleuses sont **plus susceptibles de spécifier une fourchette de salaire** que les offres légitimes. Le taux de fraude est presque **deux fois plus élevé** (7.8% vs 4.3%) pour les offres mentionnant un salaire. Cela suggère que le salaire est utilisé comme un appât stratégique pour attirer les candidats.
+
+![Taux de fraude lié au salaire](images/salary_risk.png)
+
+### Insight 4 : Autres Signaux d'Alerte
 
 - **Absence de Logo :** 82% des offres légitimes ont un logo, contre seulement 33% des offres frauduleuses.
 - **Type de Contrat :** Les offres `Part-time` (Temps partiel) sont proportionnellement les plus risquées (9.3% de fraude).
@@ -75,4 +81,10 @@ L'analyse du taux de fraude par pays a montré que, bien que les États-Unis aie
     ```bash
     cd Fake-Job-Posting-Detection-Analysis
     ```
-3.  Lancez le notebook Jupyter `analysis.ipynb` pour voir l'analyse complète.
+3.  (Vivement Recommandé) Créez un environnement virtuel et installez les dépendances :
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Sur Windows: venv\Scripts\activate
+    pip install -r requirements.txt
+    ```
+4.  Lancez le notebook Jupyter `analysis.ipynb` pour voir l'analyse complète.
