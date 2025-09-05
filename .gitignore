@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.venv
+venv
+
+# IDE
+.vscode/
+.idea/
+
+# Data - Ne jamais versionner les gros fichiers de données !
+*.csv
+*.xlsx
