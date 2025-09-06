@@ -65,7 +65,13 @@ De manière contre-intuitive, les offres frauduleuses sont **plus susceptibles d
 
 ![Taux de fraude lié au salaire](images/salary_risk.png)
 
-### Insight 4 : Autres Signaux d'Alerte
+### Insight 4 : Le Vocabulaire de la Fraude (Analyse NLP)
+
+L'analyse des mots utilisés dans les descriptions révèle un vocabulaire radicalement différent. Alors que les offres légitimes utilisent un langage d'entreprise centré sur le développement et les projets, les offres frauduleuses insistent sur des termes transactionnels comme "customer", "service", et "data entry".
+
+![Nuage de mots des offres frauduleuses](images/wordcloud_fraud.png)
+
+### Insight 5 : Autres Signaux d'Alerte
 
 - **Absence de Logo :** 82% des offres légitimes ont un logo, contre seulement 33% des offres frauduleuses.
 - **Type de Contrat :** Les offres `Part-time` (Temps partiel) sont proportionnellement les plus risquées (9.3% de fraude).
